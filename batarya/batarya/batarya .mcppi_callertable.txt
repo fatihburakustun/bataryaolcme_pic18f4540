@@ -1,0 +1,20 @@
+main
+	__CC2DW
+	ADC_Init
+	adc_value
+	Add_32x32_FP
+		NRM4032
+			SETFUN32
+			FIXSIGN32
+			SETFOV32
+			RES032
+		SETFOV32
+	Div_32x32_FP
+		SETFDZ32
+		RES032
+		SETFOV32
+		SETFUN32
+	convert
+		Div_16x16_S
+			Div_16x16_S_L
+interrupt
